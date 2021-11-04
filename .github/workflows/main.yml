@@ -31,4 +31,4 @@ jobs:
       - name: Run a multi-line script
         run: |
           pwd
-          ./test.sh
+          sudo ./test.sh
