@@ -33,4 +33,4 @@ jobs:
           ls
           pwd
           chmod +x test.sh
-          bash ./test.sh
+          bash test.sh
