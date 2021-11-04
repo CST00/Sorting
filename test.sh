@@ -8,5 +8,5 @@ fi
 if diff Expected2.txt Sorted2.txt; then
 	echo "S2 Pass"
 else
-	"S2 Failed"
+	echo "S2 Failed"
 fi	
