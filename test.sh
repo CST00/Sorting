@@ -1,4 +1,4 @@
-#!/bin/bash
+
 
 python3 499Sort.py
 if diff ExpectedS1.txt Sorted.txt then
