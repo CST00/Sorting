@@ -33,4 +33,5 @@ jobs:
           ls
           pwd
           chmod +x test.sh
+          python3 499Sort.py
           bash ./test.sh
