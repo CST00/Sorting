@@ -1,11 +1,11 @@
 #!/bin/bash
 if diff ExpectedS1.txt Sorted.txt; then
-	echo "S1 Pass"
+	true
 else
-	echo"S1 Fail"
+	false
 fi
 if diff ExpectedS2.txt Sorted2.txt; then
-	echo "S2 Pass"
+	true
 else
-	echo "S2 Failed"
+	false
 fi
