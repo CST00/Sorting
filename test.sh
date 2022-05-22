@@ -1,12 +1,12 @@
 #!/bin/bash
-python3 499Sort.py
+import sys
 if diff ExpectedS1.txt Sorted.txt; then
-	echo "S1 Pass"
+	echo "s1 passed"
 else
-	echo"S1 Fail"
+	exit 1
 fi
-if diff Expected2.txt Sorted2.txt; then
-	echo "S2 Pass"
+if diff ExpectedS2.txt Sorted2.txt; then
+	echo "s2 passed"
 else
-	echo "S2 Failed"
-fi	
+	exit 2
+fi
